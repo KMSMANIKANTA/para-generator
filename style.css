@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading{
+    width:400px;
+    text-align: center;
+    margin:auto;
+    margin-top: 30px;
+    color:red;
+
+}
+fieldset{
+    border:2px solid black;
+    width:30%;
+    padding:20px;
+    margin:auto;
+    margin-top:40px;
+    border-radius: 10px;
+    background-color:aquamarine;
+}
+.button{
+    width:100px;
+    padding:5px;
+    border-radius: 2px;
+    margin:auto;   
+    margin-top:20px;
+    background-color: gray;
+    border-radius: 10px;
+    background: transparent;
+    margin-left: 20px;
+}
+#para{
+    width:200px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 20px;
+}
+#submit{
+    padding:5px;
+    background: transparent;
+    border-radius: 4px;
+    margin:20px;
+}
+
+.textcontainer{
+    width:60%;
+    height:200px;   text-align: justify;
+    border:2px black;
+    margin-top:100px;
+    padding:100px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color:aquamarine;
+    color:black;
+    margin-left:15%;
+    font-family: verdana;
+    scrollbar-color: black;
+
+
+}
+.copy{
+    width:100px;
+    padding:5px;
+    position: absolute;
+    top:370px;
+    right:300px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.copy:hover{
+    box-shadow: -3px -3px 10px aqua;
+    border:2px solid gray;
+    color:gray;
+}
+.button:hover{
+    box-shadow: -3px -3px 10px aqua;
+    border:2px solid gray;
+    color:gray
+
+}
+@media screen and (max-width:800px){
+    .textcontainer{
+        width:40%;
+        margin-left: 18%;
+        padding:50px;
+    }
+
+    .copy{
+        top:405px;
+        right:100px;
+        background-color: aqua;
+    }
+    .button{
+        background-color: aqua;
+        margin-left:50px;
+    }
+}
